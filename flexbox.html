@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+     <style>
+        .flex-container {
+            display: flex;
+            background-color: aqua;
+            flex-direction:  column-reverse;
+            flex-flow: column wrap;
+        }
+        /* flex comtainer has different properties:
+        display
+        background-colour
+        flex-direction
+        flex-wrap
+         */
+
+        .flex-container>div {
+            background-color: antiquewhite;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+
+        } 
+    </style> 
+</head>
+
+<body>
+    <h1>Create a Flex container </h1>
+    <div class="flex-container">
+        <div style="background-color: gray;">Tiktok</div>
+        <div style="background-color: rgb(63, 64, 65);">Facebook</div>
+        <div style="background-color: blueviolet;">Twitter</div> 
+        <div style="background-color: yellow;">Snapchat</div>
+        <div style="background-color:brown">Instagram</div>
+    </div>
+    <p>A flexible layout <em>display</em>property set</p>
+</body>
+ 
+</html>

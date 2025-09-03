@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <metmeta charset="UTF-8">
+    <title>CSS Display Types</title>
+    <style>
+        .block-example{
+            display: block;
+            background-color: antiquewhite;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .inline-example{
+            display: inline;
+            background-color: bisque;
+            padding: 10px;
+        }
+        .inline-block-example {
+            display: inline-block;
+            background-color: aquamarine;
+            padding: 10px;
+            width: 150px;
+            height: 50px;
+            text-align: center;
+
+        }
+        .none-example{
+            display: none;
+            background-color: brown;
+            padding: 10px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS display property example.</hi>
+<div class="section">
+    <h2>1. Block Display </h2>
+    <div class="block-example">I am a block element</div>
+    <div class="block-example">I appear below the prveious block </div>
+</div>
+
+<div class="section">
+    <h2>2.Inline Display</h2>
+    <div class="inline-example">Inline 1</div>
+    <div class="inline-example">Inline 2</div>
+    <div class="inline-example">Inline 3</div>
+</div>
+<div class="section">
+    <h2>3.Inline-Block Display</h2>
+    <span class="inline-block-example">Box 1</span>
+    <span class="inline-block-example">Box 2</span>
+</div>
+<div class="section">
+    <h2>4.None(Hidden Element)</h2>
+    <div class="none-example">You wont see me </div>
+    <p>This text skips the hidden element above. </p>
+</div>
+</body>
+
+</html>
